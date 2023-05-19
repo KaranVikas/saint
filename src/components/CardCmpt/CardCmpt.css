@@ -1,0 +1,19 @@
+.card{
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+}
+.Cardimg{
+    width: 304px;
+    height: 176px;
+}
+.Cardimg h3{
+    padding: 0px 20px;
+}
