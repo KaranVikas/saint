@@ -1,10 +1,9 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-import Header from "../components/header/header"
 import HeroSection from "../components/HeroSection/HeroSection"
 import ArticleSection from "../components/ArticleSection/ArticleSection"
-import Footer from "../components/Footer/Footer"
-
+import Layout from "../components/Layout/Layout"
+import Articles from "../components/Articles/Articles"
 
 
 
@@ -12,12 +11,11 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
     <div>
-      <Header/>
+      <Layout>
       <HeroSection/>
       <ArticleSection/>
-      <Footer/>
+      </Layout>
     </div>
-    
     </>
   )
 }

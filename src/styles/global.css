@@ -1,74 +1,187 @@
-:root{
+:root {}
+
+body {}
+
+@font-face {
+  font-family: 'New York Small';
+  font-weight: 100 500;
+  src: url(../Fonts/NewYorkSmall-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'New York Extra Large';
+  font-weight: 100 700;
+  src: url(../Fonts/NewYorkExtraLarge-Semibold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  font-weight: 100 400;
+  src: url(../Fonts/SFMonoRegular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 100 500;
+  src: url(../Fonts/sfproregular.otf) format("opentype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.head {
+  padding: 52px 62px;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-body{
-
+.nys5 {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
-h1,h2,h3,h4,h5,h6,span,p,div{
-    margin:0px;
-    padding:0px;
-  }
-  
-  button{
-    border:none;
-    background: transparent;
-  }
-  
-  .head{
-    padding: 52px 62px;
-    display:flex;
-    justify-content: space-between;
-    
-  }
+.nys4 {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
 
-  ul {
-    list-style: none;
-    overflow:hidden;
-    margin:0;
-    padding:0;  
-  }
-   li a {
-    text-align:center;
-    padding:10px;
-    
-    margin-left: 31px;
-  }
-  
-   li {
-    float:left;
-  }
-  
-  li:hover {
-    
-  }
-  a {
-    display:block;
-    text-decoration: none;
-    font-weight: 500;
-font-size: 20px;
-line-height: 170%;
-/* identical to box height, or 34px */
+.nyel {
+  font-family: 'New York Extra Large';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 100%;
+  /* or 54px */
 
-text-align: center;
-letter-spacing: 0.12em;
-text-transform: uppercase;
-color: #000000;
-  }  
+  text-align: center;
 
-  .mainImgdiv{
-    margin-top: 77px;
-    margin-bottom:44px;
-  }
-.mainImg{
+  color: #000000;
+}
+
+.sfmono {
+  font-family: 'SF Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 34px */
+
+  text-align: center;
+}
+
+.sfdisp {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+.sfdisptext {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.tags {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #0C0C0C;
+}
+
+.heads ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  margin-left: 31px;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+}
+
+li:hover {}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  /* identical to box height, or 34px */
+
+  text-align: center;
+  letter-spacing: 0.12em;
+  /* text-transform: uppercase; */
+  color: #000000;
+}
+
+.mainImgdiv {
+  margin-top: 77px;
+  margin-bottom: 44px;
+}
+
+.mainImg {
   width: 854px;
   height: 533px;
-  }
-.mainPageStyle{
+}
+
+.mainPageStyle {
   margin-bottom: 33px;
 }
 
-.mainLine{
+.mainLine {
   margin-bottom: 64px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 100%;
+  /* or 54px */
+  text-align: center;
+  color: #000000;
 }

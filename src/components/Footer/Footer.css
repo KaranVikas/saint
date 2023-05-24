@@ -3,8 +3,17 @@
     color:white;
 }
 
+.footerHead{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 h2{
-    color:white;
     margin-top:105px;
     margin-bottom:25px;
     font-weight: 400;
@@ -38,9 +47,26 @@ h4{
 }
 a{
     font-weight: 500;
-font-size: 16px;
-line-height: 170%;
-/* or 27px */
-
-text-decoration-line: underline;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    text-decoration-line: underline;
+    color:white;
 }
+
+
+
+.logospace{
+    margin-top: 105px;
+    margin-bottom: 25px;
+}
+
+.text-even{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.text-odd{
+    font-weight:400;
+    text-transform: uppercase;
+}   

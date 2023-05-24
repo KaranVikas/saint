@@ -2,3 +2,6 @@ h2{
     margin-top:64px;
     margin-bottom:40px;
 }
+.container{
+    max-width:680px;
+}

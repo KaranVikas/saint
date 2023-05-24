@@ -1,11 +1,15 @@
 import React from 'react'
-
+import './Header.css'
+import { Logo } from '../../svgs'
+import logoimg from '../../Assets/Logoimage.png'
 const header = () => {
   return (
     <div className=''>
         <div className='head'>
-            <div className='' ><a>NORDIC ROSE</a></div>
-            <div>
+            <div className='' ><a>
+              <img src={logoimg} />
+              </a></div>
+            <div className='nys5 heads'>
                 <ul>
                     <li className="active"><a href="#">BLOG</a></li>
                     <li><a href="#">ABOUT</a></li>

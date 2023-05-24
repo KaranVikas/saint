@@ -4,8 +4,10 @@ const CardCmpt = ({Cardimg,Cardtitle}) => {
     console.log(Cardimg, "asd")
     return (
     <div className='text-center'>
-        <img className="Cardimg" src={Cardimg} />
-        <h3 className="Cardimg mx-auto">{Cardtitle}</h3>
+        <div className='Cardimg'>
+          <img className=" h-100 w-100" src={Cardimg} />
+        </div>
+        <h3 className=" sfdisp " >{Cardtitle}</h3>
     </div>
   )
 }

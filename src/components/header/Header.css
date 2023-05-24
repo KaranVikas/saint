@@ -1,11 +1,33 @@
 h2{
+    font-family: 'New York Small';
     font-weight: 700;
 font-size: 54px;
 line-height: 100%;
 }
 
 h3{
+    font-family: 'New York Small';
     font-weight: 400;
 font-size: 20px;
 line-height: 170%;
+}
+
+.nys5{
+    font-family: 'New York Small';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 170%;
+/* identical to box height, or 34px */
+
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.footerLinkTags{
+    color:white;
+    text-decoration:underline;
 }

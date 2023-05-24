@@ -1,0 +1,95 @@
+
+.profileimg{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+.profileimg2{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    
+    
+}
+
+.eyebox{
+    margin-top: 132x;
+    margin-bottom: 73px;
+    border-bottom: 2px solid #000000;
+}
+.blog-detail-section {
+    margin-bottom: 93px;
+    position: relative;
+    border-bottom: 2px solid #000000;
+}
+.blog-section-authDetails{
+    margin-bottom: 132px;
+}
+
+
+.blog-detail-section-eyes{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%, 50%);
+}
+
+.authDetails1 .authorName{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.authDetails .date{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.richText h2{
+    margin-top: 16px;
+    text-align: left;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+    color: #000000;
+}
+
+.richText img{
+    text-align: center;
+    width: 125%;
+    position: relative;
+    left: -12.25%;
+    margin-top:45px;
+    margin-bottom: 45px;
+}
+
+.long-share-btn{
+    margin-top: 77px;
+}
+
+.tags{
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #0C0C0C;
+}

@@ -15,6 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@sanity/block-content-to-react": "^3.0.0",
     "bootstrap": "^5.2.3",
     "gatsby": "^5.9.1",
     "gatsby-plugin-image": "^3.10.0",
@@ -24,7 +25,8 @@
     "gatsby-transformer-sharp": "^5.10.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7"
   },
   "devDependencies": {
     "@types/node": "^18.16.5",
