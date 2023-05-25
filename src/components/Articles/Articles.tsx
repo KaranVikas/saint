@@ -29,7 +29,7 @@ const Articles = () => {
             data.allSanityBlog.nodes.map((element, index) => {
               const CardImg = element.image.asset.gatsbyImageData.images.fallback.src;
               const CardTitle = element.title;
-              const URL = 'http://localhost:8000'
+              const URL = 'https://main--resilient-kheer-e69c36.netlify.app'
               return (
                 <div className='col-6'>
                   <Link to={`${URL}/BlogItem/${index}`}>

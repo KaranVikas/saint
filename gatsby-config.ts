@@ -15,6 +15,7 @@ const config: GatsbyConfig = {
       projectId: "iqfl976a",
       dataset: "production",
       token: 'sk8zruQqZOCL6OeaNOkNKOvVvwxe9dFyAAbTjxq4pvN13zrAehsjBbX5SXzhcMVZeVCZOU9bKwwWRa0lo77umeCtxuEbSEpyBV9QM1ffRMftcNae5Ex34uMjBTfhQT3Kff6UJdCptvcaFDWhLuNp6qAFyX6ddSgWqJJ1JVCq1BfIdQHqEISt',
+      endpoint: `https://iqfl976a.api.sanity.io/v1/graphql/production/default`,
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
