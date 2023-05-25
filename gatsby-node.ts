@@ -29,7 +29,7 @@ exports.createPages = async ({ graphql, actions}:any) => {
     `)
     // console.log(queryResults.data.allSanityBlog.nodes,"asdf")
     queryResults.data.allSanityBlog.nodes.forEach((element :any,index:number) => {
-      console.log(element,"ele")
+      // console.log(element,"ele")
         createPage({
           path:`/BlogItem/${index}`,
           component:path.resolve('./src/templates/blogItem.tsx'),
